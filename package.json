@@ -1,7 +1,7 @@
 {
   "name": "vehicle-brands",
-  "version": "1.0.0",
-  "description": "A comprehensive list of global car and motorcycle brands with metadata (country, type, status, corporate group)",
+  "version": "1.1.0",
+  "description": "A comprehensive list of global car, motorcycle, and truck brands with metadata (country, type, status, corporate group)",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -24,6 +24,7 @@
     "vehicles",
     "cars",
     "motorcycles",
+    "trucks",
     "brands",
     "automotive",
     "manufacturers",

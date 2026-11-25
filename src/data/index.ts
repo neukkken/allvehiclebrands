@@ -1,9 +1,11 @@
 import type { Brand } from '../types'
 import { carBrands } from './cars'
 import { motorcycleBrands } from './motorcycles'
+import { truckBrands } from './trucks'
 
 export { carBrands } from './cars'
 export { motorcycleBrands } from './motorcycles'
+export { truckBrands } from './trucks'
 
 function deduplicate(brands: Brand[]): Brand[] {
   const seen = new Set<string>()
@@ -15,4 +17,4 @@ function deduplicate(brands: Brand[]): Brand[] {
   })
 }
 
-export const allBrands: Brand[] = deduplicate([...carBrands, ...motorcycleBrands])
+export const allBrands: Brand[] = deduplicate([...carBrands, ...motorcycleBrands, ...truckBrands])

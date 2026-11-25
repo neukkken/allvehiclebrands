@@ -1,4 +1,4 @@
-export { carBrands, motorcycleBrands, allBrands } from './data'
+export { carBrands, motorcycleBrands, truckBrands, allBrands } from './data'
 export {
   brandsByCountry,
   brandsByGroup,
@@ -10,7 +10,7 @@ export {
   getCountries,
   getGroups,
 } from './utils/filters'
-export type { Brand, CarBrand, MotorcycleBrand, VehicleType, BrandStatus } from './types'
+export type { Brand, CarBrand, MotorcycleBrand, TruckBrand, VehicleType, BrandStatus } from './types'
 export { COUNTRIES } from './constants/countries'
 export { GROUPS } from './constants/groups'
 export type { CountryCode } from './constants/countries'

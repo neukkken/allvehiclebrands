@@ -1,4 +1,4 @@
-export type VehicleType = 'car' | 'motorcycle' | 'both'
+export type VehicleType = 'car' | 'motorcycle' | 'truck' | 'both'
 
 export type BrandStatus = 'active' | 'inactive' | 'defunct'
 
@@ -16,4 +16,8 @@ export interface CarBrand extends Brand {
 
 export interface MotorcycleBrand extends Brand {
   type: 'motorcycle' | 'both'
+}
+
+export interface TruckBrand extends Brand {
+  type: 'truck' | 'both'
 }

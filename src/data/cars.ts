@@ -34,8 +34,8 @@ export const carBrands: Brand[] = [
   { name: 'Bugatti', type: 'car', country: 'Germany', status: 'active', group: GROUPS.VW_GROUP },
   { name: 'Lamborghini', type: 'car', country: 'Germany', status: 'active', group: GROUPS.VW_GROUP },
   { name: 'Rolls-Royce', type: 'car', country: 'Germany', status: 'active', group: GROUPS.BMW },
-  { name: 'MAN', type: 'car', country: 'Germany', status: 'active', group: GROUPS.VW_GROUP },
-  { name: 'Neoplan', type: 'car', country: 'Germany', status: 'active' },
+  { name: 'Wiesmann', type: 'car', country: 'Germany', status: 'active' },
+  { name: 'Artega', type: 'car', country: 'Germany', status: 'active' },
   { name: 'Alpina', type: 'car', country: 'Germany', status: 'active', group: GROUPS.BMW },
   { name: 'Borgward', type: 'car', country: 'Germany', status: 'inactive' },
   { name: 'Trabant', type: 'car', country: 'Germany', status: 'defunct' },
@@ -112,7 +112,7 @@ export const carBrands: Brand[] = [
   { name: 'Saab', type: 'car', country: 'Sweden', status: 'inactive' },
   { name: 'Koenigsegg', type: 'car', country: 'Sweden', status: 'active' },
   { name: 'NEVS', type: 'car', country: 'Sweden', status: 'inactive' },
-  { name: 'Scania', type: 'car', country: 'Sweden', status: 'active', group: GROUPS.VW_GROUP },
+  { name: 'Caresto', type: 'car', country: 'Sweden', status: 'active' },
 
   // === USA ===
   { name: 'Ford', type: 'car', country: 'United States', status: 'active', group: GROUPS.FORD },
@@ -222,7 +222,7 @@ export const carBrands: Brand[] = [
   { name: 'ZIL', type: 'car', country: 'Russia', status: 'defunct' },
   { name: 'Marussia', type: 'car', country: 'Russia', status: 'defunct' },
   { name: 'Aurus', type: 'car', country: 'Russia', status: 'active' },
-  { name: 'KAMAZ', type: 'car', country: 'Russia', status: 'active' },
+  { name: 'TagAZ', type: 'car', country: 'Russia', status: 'defunct' },
 
   // === CZECH REPUBLIC ===
   { name: 'Skoda', type: 'car', country: 'Czech Republic', status: 'active', group: GROUPS.VW_GROUP },
